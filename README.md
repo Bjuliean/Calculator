@@ -9,7 +9,7 @@
 
 - The length of the entered expression is limited to 255 characters.
 
-- To install the application, you need to complete the Makefile install goal. 
+- To install the application, you need to complete the Makefile install target. 
 Afterwards, the executable will be in src/build. You need QT Framework to work correctly.
 
 ## Makefile targets
