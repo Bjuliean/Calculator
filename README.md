@@ -68,6 +68,6 @@ in which yours value is substituted instead of 'x'.
 
 ![img1](misc/images/screen9.png)
 
-To draw a graph, you can use the 'Adaptive graph' checkbox. 
+After draw a graph, you can use the 'Adaptive graph' checkbox. 
 In this case, the calculator will automatically select the y range. 
 When you click on the 'Dot drawing' checkbox, the calculator will draw the graph with dots.
