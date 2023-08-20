@@ -35,7 +35,7 @@ or by executing the open makefile target.
 
 ## Examples
 
-### I
+### --I--
 ![img1](misc/images/screen2.png)
 
 ![img1](misc/images/screen3.png)
@@ -45,8 +45,29 @@ the expression itself flies into the Last expression block.
 When you click on the button, 
 you will return the previously entered expression to the input line.
 
-### II
+### --II--
 ![img1](misc/images/screen4.png)
 
 You can draw a graph. For this, the expression you entered must contain 'x'. 
 Then, you need to press either '=' or 'graph'.
+
+### --III--
+![img1](misc/images/screen5.png)
+
+![img1](misc/images/screen6.png)
+
+You can evaluate an expression with 'x' by substituting some specific value into it using the 'put x val' block. 
+In this case, when you click on '=', a graph will appear, 
+and in the input line the answer to the entered expression, 
+in which yours value is substituted instead of 'x'.
+
+### --IV--
+![img1](misc/images/screen7.png)
+
+![img1](misc/images/screen8.png)
+
+![img1](misc/images/screen9.png)
+
+To draw a graph, you can use the 'Adaptive graph' checkbox. 
+In this case, the calculator will automatically select the y range. 
+When you click on the 'Dot drawing' checkbox, the calculator will draw the graph with dots.
