@@ -1,5 +1,5 @@
 ## SmartCalc_V2.0
-### made by Julieanb
+### Made by Julieanb
 
 - This is the second version of the educational project "SmartCalc". Written in C++ using MVC in QT.
 
@@ -33,8 +33,9 @@ or by executing the open makefile target.
 
 - cleanall: Clears all generated files, bringing the repository to its original state.
 
+## Examples
 
-
+### I
 ![img1](misc/images/screen2.png)
 
 ![img1](misc/images/screen3.png)
@@ -43,3 +44,9 @@ After the expression is calculated,
 the expression itself flies into the Last expression block. 
 When you click on the button, 
 you will return the previously entered expression to the input line.
+
+### II
+![img1](misc/images/screen4.png)
+
+You can draw a graph. For this, the expression you entered must contain 'x'. 
+Then, you need to press either '=' or 'graph'.
