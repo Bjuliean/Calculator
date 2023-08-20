@@ -1,0 +1,14 @@
+digraph "/mnt/d/WORKSPACE/scalc/CPP3_SmartCalc_v2.0-1/src/view"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_b2f003339c516cc00c8cadcafbe82f13 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_b2f003339c516cc00c8cadcafbe82f13.html"]
+    dir_b2f003339c516cc00c8cadcafbe82f13 [shape=plaintext, label="view"];
+  dir_1b67ee9bb4629f20e6a5f6610fee9189 [shape=box, label="mainwindow", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_1b67ee9bb4629f20e6a5f6610fee9189.html"];
+  }
+  dir_d3bff1ab3a40b4e5d0775c67ace1b0da [shape=box, label="controller", style="", fillcolor="#edf0f7", color="grey25", URL="dir_d3bff1ab3a40b4e5d0775c67ace1b0da.html"];
+  dir_1b67ee9bb4629f20e6a5f6610fee9189->dir_d3bff1ab3a40b4e5d0775c67ace1b0da [headlabel="1", labeldistance=1.5 headhref="dir_000001_000000.html"];
+}
