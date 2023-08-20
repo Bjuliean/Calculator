@@ -9,8 +9,29 @@
 
 - The length of the entered expression is limited to 255 characters.
 
+- To install the application, you need to complete the Makefile install goal. 
+Afterwards, the executable will be in src/build. You need QT Framework to work correctly.
 
-![img1](misc/images/screen1.png)
+## Makefile targets
+
+- all: Collects model tests and checks coverage.
+
+- test: Gathers only model tests using gtest.
+
+- gcov_report: Collects model coverage tests. You need gcov/lcov to work.
+
+- install: Installs the application and generates an executable file in the build folder.
+
+- dvi: Generates project technical documentation using doxygen. 
+The documentation is initially in the repository, 
+you can view it by opening src/documentation/html/index.html, 
+or by executing the open makefile target.
+
+- dist: Executes the Makefile install target, then archives the executable.
+
+- clean: Removes files generated after the test and gcov_report targets.
+
+- cleanall: Clears all generated files, bringing the repository to its original state.
 
 
 
